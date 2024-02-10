@@ -1,0 +1,56 @@
+
+.status{
+    width: var(--s_width);
+    height: var(--s_height);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #487366;
+    border: 1px solid #2cc595;
+    transition: 400ms;
+    cursor: pointer;
+    text-align: center;
+}
+.status h2{
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2em;
+}
+.status h4{
+    color:#dbcece ;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1em;
+}
+.status:hover{
+    background-color: #43BE97;
+}
+
+.error{
+    background-color: #81464F;
+    border: 1px solid #d16474;
+}
+.error:hover{
+    background-color: #d3445a;
+}
+.warnning{
+    background-color: #817650;
+    border: 1px solid #f3db84;
+
+}
+.warnning:hover{
+    background-color: #e4c453;
+}
+.offline{
+    background-color: #7E7E7E;
+    border: 1px solid #d6d3d3;
+}
+.offline:hover{
+    background-color: #c0adad;
+} 
+
+

@@ -1,0 +1,8 @@
+redis-uri: "redis://172.16.10.27:6379/15"
+streams:
+  com.ada.invoice.stream:
+    trim: 10000
+  com.ada.gateway.query-logs:
+    trim: 10000
+services:
+  - https://banketapi.asr24.com/invoice/public/ping

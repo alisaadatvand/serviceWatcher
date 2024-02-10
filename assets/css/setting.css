@@ -1,0 +1,19 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --row_count: 4;
+  --column_count: 3;
+  --s_width: 100%;
+  --q_height: 100%;
+  --x: 100px;
+  --f_s: 1.5rem;
+}
+body{
+  background-color: #4A4A4A;
+} 

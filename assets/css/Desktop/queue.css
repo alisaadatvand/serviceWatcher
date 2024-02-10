@@ -1,0 +1,49 @@
+.queue{
+    width: 100%;
+    height: var(--q_height);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #487366;
+    border: 1px solid #2cc595;
+    row-gap: 5px;
+    text-align: center;
+}
+.queue h1{
+    color: #FFFFFF;
+    text-transform: capitalize;
+    /* font-weight: 600; */
+    font-size: var(--f_s);
+}
+.queue .details{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-around;
+}
+.queue .details .object{
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 5px;
+}
+.queue .details .object h3{
+    color:#ffffff ;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: var(--f_s);
+}
+.queue .details .object span{
+    color:#000000 ;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: var(--f_s);
+}
+hr{
+    width: 50%;
+    opacity: 0.8;
+}
