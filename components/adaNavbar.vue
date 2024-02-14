@@ -4,7 +4,7 @@
         <div class="logo">
           <a href="#">
             <img src="../public/images/icon.svg" alt="icon" />
-            <span>Spring Boot Admin</span>
+            <span>Boot Admin</span>
           </a>
         </div>
         <div class="mainMenu">
