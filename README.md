@@ -1,3 +1,8 @@
+# Service Watcher
+
+This project is the front of a service that displays the status of services and queues, and it has been made dynamic with JavaScript in such a way that the size of the elements that display the status of the services changes depending on the number of services.
+The page does not scroll at all
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
